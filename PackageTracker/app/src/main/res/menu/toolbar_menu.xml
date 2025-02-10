@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- About Fragment -->
+    <item
+        android:id="@+id/menu_about"
+        android:title="About"
+        app:showAsAction="never" />
+
+    <!-- Hidden Menu (Visible when packages < 15) -->
+    <item
+        android:id="@+id/menu_hidden"
+        android:title="Hidden"
+        app:showAsAction="never"
+        android:visible="false" />
+
+    <!-- Clear App Data -->
+    <item
+        android:id="@+id/menu_clear_data"
+        android:title="Clear Data"
+        app:showAsAction="never" />
+</menu>
