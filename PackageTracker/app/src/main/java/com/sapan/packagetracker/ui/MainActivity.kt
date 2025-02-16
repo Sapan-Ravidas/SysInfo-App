@@ -20,6 +20,7 @@ import com.sapan.packagetracker.ui.packagelist.PackageFragment
 class MainActivity : AppCompatActivity() {
 
     private lateinit var _binding: ActivityMainBinding
+    private var isMenuReady = false
     val binding: ActivityMainBinding
         get() = _binding
 
@@ -66,12 +67,15 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun updateHiddenMenuVisibility(isVisible: Boolean) {
-        val hiddenMenuItem = binding.toolbar.menu.findItem(R.id.menu_hidden)
-        hiddenMenuItem?.isVisible = isVisible
+        if (isMenuReady) {
+            val hiddenMenuItem = binding.toolbar.menu.findItem(R.id.menu_hidden)
+            hiddenMenuItem?.isVisible = isVisible
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.toolbar_menu, menu)
+        isMenuReady = true
         return true
     }
 

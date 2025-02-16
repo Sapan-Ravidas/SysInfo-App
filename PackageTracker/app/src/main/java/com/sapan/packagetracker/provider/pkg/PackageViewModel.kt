@@ -6,6 +6,9 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.sapan.packagetracker.repository.PackageRepository
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 
 class PackageViewModel(private val repository: PackageRepository) : ViewModel() {
     private val _installedPackages = MutableLiveData<List<String>>()
@@ -20,9 +23,12 @@ class PackageViewModel(private val repository: PackageRepository) : ViewModel() 
     }
 
     private fun loadInstalledPackages() {
-        val packages = repository.getInstalledPackages()
-        _installedPackages.postValue(packages)
-        _installedPackages.postValue(packages)
-        _isHiddenMenuVisible.postValue(packages.size < 15)
+        val scope = CoroutineScope(Dispatchers.Main)
+        scope.launch {
+            val packages = repository.getInstalledPackages()
+            _installedPackages.postValue(packages)
+            _installedPackages.postValue(packages)
+            _isHiddenMenuVisible.postValue(packages.size < 15)
+        }
     }
 }
