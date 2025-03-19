@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="rectangle" >
+            <solid android:color="@color/background_light_theme" />
+        </shape>
+    </item>
+
+    <item
+        android:top="@dimen/about_page_margin_top_large_screen">
+        <shape
+            android:shape="rectangle" >
+            <solid android:color="@color/multi_pane_window" />
+            <corners
+                android:topLeftRadius="@dimen/about_page_app_corner_radius"
+                android:topRightRadius="@dimen/about_page_app_corner_radius"/>
+        </shape>
+    </item>
+</layer-list>

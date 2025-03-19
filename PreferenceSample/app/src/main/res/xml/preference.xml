@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/contacts"/>
+
+    <com.sapan.preferencesample.settings.DAContactFilterSwitchPref
+        android:key="contact_filter_switch"
+        android:title=""
+        android:summary=""
+        android:defaultValue="false"/>
+</PreferenceScreen>

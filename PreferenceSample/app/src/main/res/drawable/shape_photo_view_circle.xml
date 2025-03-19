@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    android:thickness="1px">
+
+    <size
+        android:width="40dip"
+        android:height="40dip"/>
+    <stroke
+        android:width="@dimen/recipient_list_item_thumbnail_outer_line_stroke_size"
+        android:color="@color/list_sub_text_color"/>
+
+</shape>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/ripple_color_master_switch">
+    <item>
+        <shape android:shape="oval">
+            <size android:width="48dp" android:height="48dp"/>
+            <solid android:color="@color/background_light_theme"/>
+            <!--<corners android:radius="@dimen/contact_list_actionbar_ripple_radius" /> -->
+        </shape>
+    </item>
+</ripple>

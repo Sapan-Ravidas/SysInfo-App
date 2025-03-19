@@ -1,0 +1,17 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/black_ten_opaque">
+    <item>
+        <shape android:shape="rectangle"> 
+            <gradient 
+                 android:startColor="@color/button_round_shape_color"
+                 android:endColor="@color/button_round_shape_color" 
+                 android:angle="270"/> 
+
+            <corners 
+                 android:bottomRightRadius="@dimen/button_round_shape_radius" 
+                 android:bottomLeftRadius="@dimen/button_round_shape_radius" 
+                 android:topLeftRadius="@dimen/button_round_shape_radius" 
+                 android:topRightRadius="@dimen/button_round_shape_radius"/> 
+            </shape>
+    </item>
+</ripple>

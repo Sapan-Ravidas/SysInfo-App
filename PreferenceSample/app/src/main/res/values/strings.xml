@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<resources>
+
+    <!-- PopupActivity -->
+    <string name="app_name">Social </string>
+
+    <string name="messenger_apps">Messenger App</string>
+
+    <string name="install_dual_app_popup_title" did="DREAM_MSG_PHEADER_INSTALL_A_SECOND_COPY_OF_PS_Q">Install a second copy of %s?</string>
+    <string name="error_msg_not_enough_memory_title" did="DREAM_SC_POP_THERE_ISNT_ENOUGH_SPACE_IN_YOUR_INTERNAL_STORAGE_DELETE_SOME_FILES_AND_TRY_AGAIN">Not enough space</string>
+    <string name="install_dual_app_popup_body" did="DREAM_MSG_BODY_YOULL_BE_ABLE_TO_SIGN_IN_TO_ANOTHER_PS_ACCOUNT_IN_THE_SECOND_COPY_OF_THE_APP">You\'ll be able to sign in to another %s account in the second copy of the app.</string>
+    <string name="uninstall_dual_app_popup_title" did="DREAM_MSG_PHEADER_UNINSTALL_SECOND_COPY_OF_PS_Q">Uninstall second copy of %s?</string>
+    <string name="archive_dual_app_popup_title" did="DREAM_MSG_HEADER_ARCHIVE_PS_Q">Archive %s?</string>
+    <string name="archive_dual_app_popup_body" did="DREAM_MSG_BODY_DUAL_MESSENGER_IS_TURNED_ON_FOR_THIS_APP_THE_SECOND_COPY_OF_PS_WILL_ALSO_BE_ARCHIVED">Dual Messenger is turned on for this app. The second copy of %s will also be archived.</string>
+
+    <string name="uninstall_disable_dual_app_popup_body" did="DREAM_MSG_BODY_ALL_DATA_RELATED_TO_YOUR_SECOND_COPY_OF_P1SS_WILL_BE_DELETED_YOULL_STILL_BE_ABLE_TO_USE_YOUR_MAIN_COPY_OF_P2SS">Any data related to the second copy of %1$s will be deleted. You\'ll still be able to use your main version of %2$s.</string>
+
+    <string name="uninstall_all_popup_title" did="DREAM_ST_PHEADER_UNINSTALL_PS_Q">Uninstall %s?</string>
+
+    <string name="uninstall_all_popup_body" did="DREAM_MSG_BODY_DUAL_MESSENGER_IS_TURNED_ON_FOR_THIS_APP_THE_SECOND_COPY_OF_PS_WILL_ALSO_BE_UNINSTALLED">Dual Messenger is turned on for this app. The second copy of %s will also be uninstalled.</string>
+
+    <string name="disable_dual_app_popup_title" did="DREAM_MSG_PHEADER_DISABLE_SECOND_COPY_OF_PS_Q">Disable second copy of %s?</string>
+
+    <string name="disable_all_popup_title" did="DREAM_ST_PHEADER_DISABLE_PS_Q">Disable %s?</string>
+
+    <string name="disable_all_popup_body" did="DREAM_MSG_BODY_DUAL_MESSENGER_IS_TURNED_ON_FOR_THIS_APP_THE_SECOND_COPY_OF_PS_WILL_ALSO_BE_DISABLED">Dual Messenger is turned on for this app. The second copy of %s will also be disabled.</string>
+
+    <string name="disable_primary_app_popup_body" did="IDS_HS_POP_P1SS_AND_ALL_THE_FUNCTIONS_RELATED_TO_IT_WILL_BE_DISABLED_TO_ENABLE_THE_APP_AGAIN_GO_TO_SETTINGS_APPLICATIONS_THEN_SELECT_P2SS">%1$s and all the functions related to it will be disabled. To enable the app again, go to Settings > Applications, then select %2$s.</string>
+
+    <string name="disable_primary_app_popup_body_vzw" did="IDS_AT_POP_PS_AND_ALL_THE_FEATURES_RELATED_TO_IT_WILL_BE_DISABLED_TO_ENABLE_IT_AGAIN_GO_TO_SETTINGS_APPLICATIONS_APPLICATION_MANAGER">%s and all the features related to it will be disabled. To enable it again, go to Settings > Applications > Application manager.</string>
+
+    <string name="turn_off_contact_filtering_title" did="DREAM_ST_PHEADER_USE_YOUR_REGULAR_CONTACTS_Q">Use your regular contacts?</string>
+
+    <string name="turn_off_contact_filtering_body" did="DREAM_ST_BODY_UNLESS_YOU_TURN_ON_USE_SEPARATE_CONTACTS_LIST_YOUR_CONTACTS_LIST_WILL_BE_SHARED_BETWEEN_YOUR_MAIN_AND_SECOND_APPS">Unless you turn on Use separate contacts list, your contacts list will be shared between your main and second apps.</string>
+
+    <string name="select_contacts_title" did="DREAM_ST_PHEADER_WANT_TO_ADD_SOME_CONTACTS_Q">Want to add some contacts?</string>
+
+    <string name="select_contacts_body" did="DREAM_ST_BODY_UNLESS_YOU_CHOOSE_SOME_CONTACTS_TO_SHOW_NONE_WILL_BE_SHOWN_IN_YOUR_SECOND_APPS">Unless you choose some contacts to show, none will be shown in your second apps.</string>
+
+    <string name="update_title" did="DREAM_ST_PHEADER_UPDATE_DUAL_MESSENGER_Q">Update Dual Messenger?</string>
+
+    <string name="update_body" did="DREAM_ST_BODY_A_NEW_VERSION_OF_DUAL_MESSENGER_IS_AVAILABLE">A new version of Dual Messenger is available.</string>
+
+    <!-- Toast -->
+
+    <string name="install_success" did="DREAM_MSG_TPOP_SECOND_COPY_OF_PS_INSTALLED">Second copy of %s installed.</string>
+
+    <string name="uninstall_success" did="DREAM_MSG_TPOP_SECOND_COPY_OF_PS_UNINSTALLED">Second copy of %s uninstalled.</string>
+
+    <string name="all_uninstall_success" did="DREAM_ST_TPOP_PS_UNINSTALLED">%s uninstalled.</string>
+
+    <string name="disable_success" did="DREAM_MSG_TPOP_SECOND_COPY_OF_PS_DISABLED">>Second copy of %s disabled.</string>
+
+    <string name="all_disable_success" did="DREAM_ST_TPOP_PS_DISABLED">%s disabled.</string>
+
+    <string name="keep_app_data" did="DREAM_MSG_OPT_KEEP_APP_DATA">Keep app data</string>
+
+
+    <string name="policy_not_allow" did="IDS_KNOX_POP_SECURITY_POLICY_RESTRICTS_THIS_ACTION">Security policy restricts this action.</string>
+
+
+    <!-- Button -->
+
+    <string name="cancel_btn" did="DREAM_ST_BUTTON_CANCEL_15">Cancel</string>
+
+    <string name="install_btn" did="DREAM_ST_BUTTON_INSTALL_15">Install</string>
+
+    <string name="uninstall_btn" did="DREAM_ST_BUTTON_UNINSTALL_30">Uninstall</string>
+
+    <string name="disable_btn" did="DREAM_ST_BUTTON_DISABLE_15">Disable</string>
+
+    <string name="confirm_btn" did="MIDS_ESU_BUTTON_CONFIRM">Confirm</string>
+
+    <string name="ok_btn" did="DREAM_ST_BUTTON_OK_22">Ok</string>
+
+    <string name="next_btn" did="DREAM_ST_BUTTON_NEXT_22">Next</string>
+
+    <string name="later_btn" did="DREAM_ST_BUTTON_LATER_22">Later</string>
+
+    <string name="update_btn" did="IDS_IDLE_BUTTON_UPDATE_ABB8">Update</string>
+
+    <string name="archive_btn" did="DREAM_MSG_BUTTON_ARCHIVE_10">Archive</string>
+
+
+    <string name="edit_btn" did="DREAM_ST_PHEADER_SELECT_CONTACTS">Select your second app contacts</string>
+
+    <string name="retry_btn" did="IDS_IDLE_BUTTON_RETRY_ABB6">Retry</string>
+
+    <string name="turn_off_btn" did="DREAM_ST_BUTTON_TURN_OFF_22">Turn off</string>
+
+    <string name="turn_on_select_all_contact_btn" did="DREAM_MSG_TBOPT_SELECT_ALL_CONTACTS">Select all contacts</string>
+
+    <string name="turn_off_select_all_contact_btn" did="DREAM_MSG_TBOPT_DESELECT_ALL_CONTACTS">Deselect all contacts</string>
+
+    <!-- Dual Messenger -->
+
+    <string name="dual_messenger" did="DREAM_ST_HEADER_DUAL_MESSENGER">Dual Messenger</string>
+
+    <string name="description" did="DREAM_MSG_BODY_SIGN_IN_TO_A_SECOND_ACCOUNT_IN_YOUR_FAVORITE_SOCIAL_APPS">Sign in to a second account in your favorite social apps.</string>
+
+    <string name="available_apps" did="DREAM_ST_HEADER_AVAILABLE_APPS">Available apps</string>
+
+    <string name="dual_messenger_apps" did="DREAM_ST_HEADER_DUAL_MESSENGER_APPS_M_USED_APP">Dual Messenger apps</string>
+
+    <string name="notification_sounds" did="DREAM_ST_TMBODY_NOTIFICATION_SOUND">Notification sound</string>
+
+    <string name="notification_description" did="DREAM_ST_SBODY_SET_A_SECONDARY_NOTIFICATION_SOUND_FOR_DUAL_MESSENGER_APPS">Set a secondary notification sound for Dual Messenger apps.</string>
+
+    <string name="more_dual_messenger" did="DREAM_ST_BODY_SUPPORTED_APPS_WILL_APPEAR_HERE_AFTER_YOU_INSTALL_THEM">Supported apps will appear here after you install them.</string>
+
+    <string name="contact_filtering" did="DREAM_ST_TMBODY_USE_SEPARATE_CONTACTS_LIST">Use separate contacts list</string>
+
+    <string name="contact_filtering_sub" did="DREAM_MSG_BODY_TURN_THIS_ON_TO_USE_A_SEPARATE_LIST_OF_CONTACTS_IN_YOUR_SECOND_COPIES_OF_APPS">Select a separate list of contacts to show in your second apps.</string>
+
+
+    <string name="contacts" did="DREAM_ST_HEADER_CONTACTS">Contacts</string>
+
+    <!-- Notification Sound -->
+
+    <string name="notification_description_details" did="DREAM_ST_BODY_SET_A_NOTIFICATION_SOUND_FOR_DUAL_MESSENGER_APPS_TO_DISTINGUISH_THEM_FROM_YOUR_MAIN_APPS">Set a notification sound for Dual Messenger apps to distinguish them from your main apps.</string>
+
+    <string name="default_notification_sound" did="DREAM_ST_TMBODY_DUAL_MESSENGER_NOTIFICATION">Dual Messenger notification</string>
+
+    <string name="more_notification_sound" did="DREAM_ST_BODY_THIS_SOUND_WONT_BE_USED_FOR_APPS_THAT_HAVE_THEIR_OWN_NOTIFICATION_SOUND_SETTINGS">This sound won\'t be used for apps that have their own notification sound settings.</string>
+
+    <!-- Notification -->
+
+    <string name="notificiation_title" did="DREAM_MSG_TMBODY_GOT_A_SECOND_PS_ACCOUNT_Q">Got a second %s account?</string>
+
+    <string name="notificiation_content" did="DREAM_MSG_BODY_TAP_HERE_TO_SET_UP_A_SECOND_COPY_OF_PS_WITH_YOUR_OTHER_ACCOUNT">Tap here to install a second copy of %s that you can sign in to with another account.</string>
+
+    <!-- ProgressDialog -->
+
+    <string name="create_dual_app_profile" did="DREAM_ST_POP_TURNING_ON_DUAL_MESSENGER_ING">Turning on Dual Messenger…</string>
+
+    <string name="remove_dual_app_profile" did="DREAM_ST_POP_TURNING_OFF_DUAL_MESSENGER_ING">Turning off Dual Messenger…</string>
+
+    <!-- Disclaimer -->
+
+    <string name="disclaimer_title" did="MIDS_ESU_PHEADER_DISCLAIMER">Disclaimer</string>
+
+    <string name="disclaimer_messege1" did="LDS_ST_POP_SAMSUNG_DUAL_MESSENGER_DISCLAIMER_P1_LEGALPHRASE">Samsung Dual Messenger (“Service”) is a service that provides an easy way to use two accounts for your messaging applications (“Messenger App”).\nWith this Service, you can use two messaging accounts conveniently and independently.</string>
+
+    <string name="disclaimer_messege2" did="LDS_ST_POP_SAMSUNG_DUAL_MESSENGER_DISCLAIMER_P2_LEGALPHRASE">Please note the following before using this Service.</string>
+
+    <string name="disclaimer_messege3" did="LDS_ST_POP_SAMSUNG_DUAL_MESSENGER_DISCLAIMER_P3_LEGALPHRASE">1. The use of this Service or the features of the Messenger App may be restricted depending on the Messenger App provider’s internal policies, etc., and this Service may not be available for some Messenger Apps or their functions may be limited.</string>
+
+    <string name="disclaimer_messege4" did="LDS_ST_POP_SAMSUNG_DUAL_MESSENGER_DISCLAIMER_P4_LEGALPHRASE">2. In the event that you have installed a second Messenger App using this Service, some features of the second Messenger App may be restricted. BE AWARE THAT IF YOU DELETE THE FIRST MESSENGER APP, THE SECOND MESSENGER APP WILL BE ALSO BE DELETED AUTOMATICALLY.</string>
+
+    <string name="disclaimer_messege5" did="LDS_ST_POP_SAMSUNG_DUAL_MESSENGER_DISCLAIMER_P5_LEGALPHRASE">3. The Service may be restricted in whole or in part in the event that you are using a launcher provided by a third party.</string>
+
+    <string name="disclaimer_messege6" did="LDS_ST_POP_SAMSUNG_DUAL_MESSENGER_DISCLAIMER_P6_LEGALPHRASE">4. Samsung may provide updates and upgrades to improve its Services from time to time and in some circumstances some features may be modified or discontinued after such updates and upgrades.</string>
+
+    <string name="disclaimer_messege7" did="LDS_ST_POP_SAMSUNG_DUAL_MESSENGER_DISCLAIMER_P7_LEGALPHRASE">5. The functionality of the Messenger App itself is provided by the Messenger App provider and Samsung shall have no responsibility or liability relating to the functionality of the Messenger App itself.</string>
+
+    <!-- Notification Shortcut -->
+
+    <string name="notification_shortcut_title" did="DREAM_MSG_OPT_ADD_COPIES_TO_HOME_SCREEN_ABB">Add second apps to Home screen</string>
+
+    <string name="notification_shortcut_content" did="DREAM_MSG_BODY_TAP_HERE_TO_ADD_THE_SECOND_COPIES_OF_YOUR_APPS_TO_THE_HOME_SCREEN">Tap here to add second apps for all your Dual Messenger apps to the Home screen.</string>
+
+    <string name="menu_item_add_shortcut" did="DREAM_ST_OPT_ADD_SECOND_APPS_TO_HOME_ABB">Add second apps to Home</string>
+
+    <!-- Contacts filter -->
+
+    <string name="contact_filter_description_off" did="DREAM_ST_BODY_TURN_THIS_ON_TO_USE_A_SEPARATE_LIST_OF_CONTACTS_IN_YOUR_SECOND_APPS">Turn this on to use a separate list of contacts in your second apps.</string>
+
+    <string name="contact_filter_description_on" did="DREAM_MSG_BODY_SELECT_THE_CONTACTS_TO_SHOW_IN_YOUR_SECOND_COPIES_OF_APPS">Select contacts to show in your second apps.</string>
+
+    <string name="selected_contacts" did="DREAM_ST_HEADER_SELECTED_CONTACTS">Selected contacts</string>
+
+
+    <string name="delete_selection" did="IDS_PB_HEADER_PD_SELECTED_ABB">%d selected</string>
+
+    <string name="selected_contacts_sub" did="DREAM_ST_BODY_TAP_HERE_TO_VIEW_AND_EDIT_YOUR_SELECTED_CONTACTS">Tap here to view and edit your selected contacts.</string>
+
+    <string name="on" did="DREAM_ST_TMBODY_ON">On</string>
+
+    <string name="off" did="DREAM_ST_TMBODY_OFF">Off</string>
+
+    <string name="yes" did="DREAM_ST_BUTTON_YES_16">Yes</string>
+
+    <string name="no" did="DREAM_ST_BUTTON_NO_16">No</string>
+
+    <string name="turn_off_contact_filtering_positiveButton" did="DREAM_MSG_BUTTON_OK_15">OK</string>
+
+    <string name="turn_off_contact_filtering_negativeButton" did="DREAM_MSG_BUTTON_CANCEL_15">Cancel</string>
+
+
+    <string name="use_separate_contacts_list" did="DREAM_ST_HEADER_USE_SEPARATE_CONTACTS_LIST_ABB">Use separate contacts list</string>
+
+    <!-- Contacts list -->
+
+    <string name="add" did="DREAM_ST_BUTTON_ADD_22">Add</string>
+
+    <string name="delete" did="DREAM_ST_BUTTON_DELETE_22">Delete</string>
+
+    <string name="all" did="DREAM_ST_OPT_ALL">All</string>
+
+    <string name="no_contacts_selected" did="DREAM_PB_NPBODY_NO_CONTACTS_SELECTED">No contacts selected</string>
+
+    <string name="dont_add" did="DREAM_ST_BUTTON_DONT_ADD_16">Don\'t add</string>
+
+    <string name="done" did="DREAM_IDLE_BUTTON_DONE_10">Done</string>
+
+    <string name="contacts_removed" did="IDS_PB_POP_CONTACT_REMOVED">Contact removed.</string>
+
+    <string name="cancel_button_talkback">Cancel button</string>
+
+    <string name="done_button_talkback">Done button</string>
+
+
+    <!-- About Dual Messenger -->
+
+    <string name="about_dual_messenger" did="DREAM_ST_HEADER_ABOUT_DUAL_MESSENGER">About Dual Messenger</string>
+
+    <string name="app_info" did="DREAM_ST_HEADER_APP_INFO">App info</string>
+
+    <string name="version_name" did="DREAM_ST_BODY_VERSION_PS">Version %s</string>
+
+    <string name="update" did="IDS_IDLE_BUTTON_UPDATE_ABB8">Update</string>
+
+    <string name="version_description_new" did="IDS_IDLE_BODY_A_NEW_VERSION_IS_AVAILABLE">A new version is available.</string>
+
+    <string name="version_description_latest" did="DREAM_IDLE_BODY_THE_LATEST_VERSION_IS_INSTALLED">The latest version is installed.</string>
+
+    <string name="version_description_error" did="DREAM_ST_BODY_COULDNT_CHECK_FOR_UPDATES">Couldn\'t check for updates.</string>
+
+    <string name="no_network_connection" did="DREAM_AW_TPOP_NO_NETWORK_CONNECTION">No network connection</string>
+
+    <string name="about_app_info_talkBack" did="IDS_COM_BODY_APP_INFO">App info</string>
+
+
+    <string name="main_stubupdatecheck_not_available_msg">Update check failed because no matching application found at server.</string>
+
+    <string name="main_stubdownloadcheck_fail_msg">Preparing download failed. Would you retry ?</string>
+
+    <string name="main_stubdownload_fail_msg">Update failed. Would you retry ?</string>
+
+    <string name="main_stubinstall_fail_msg">Installation failed</string>
+
+
+    <!-- Contact filtering Notification -->
+
+    <string name="notification_contact_filtering_title" did="DREAM_ST_TMBODY_SELECT_CONTACTS_FOR_SECOND_APPS">Select contacts for second apps</string>
+
+    <string name="notification_contact_filtering_content" did="DREAM_ST_SBODY_TAP_HERE_TO_CHOOSE_THE_CONTACTS_TO_SHOW_ABB">Tap here to choose the contacts to show.</string>
+
+    <string name="remove_dual_messenger" did="DREAM_MSG_OPT_DELETE_ALL_MY_DATA_ABB">Delete all my data</string>
+
+    <string name="remove_all_apps" did="DREAM_MSG_BODY_DELETE_ALL_YOUR_DUAL_MESSENGER_APPS_AND_THE_DATA_THEY_CONTAIN_Q">Delete all your Dual Messenger apps and the data they contain ?</string>
+
+    <string name="reboot_after_while" did="DREAM_ST_BODY_UPDATE_COMPLETE_YOUR_PHONE_WILL_NOW_RESTART">Update complete. Your phone will now restart.</string>
+
+    <string name="switch_type" did="DREAM_ACCS_TBOPT_SWITCH">Switch</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
+

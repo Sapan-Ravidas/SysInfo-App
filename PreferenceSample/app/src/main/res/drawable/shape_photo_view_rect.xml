@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <size
+        android:width="40dip"
+        android:height="40dip"/>
+    <stroke
+        android:width="@dimen/recipient_list_item_thumbnail_outer_line_stroke_size"
+        android:color="@color/open_theme_thumbnail_stroke_color"/>
+
+</shape>

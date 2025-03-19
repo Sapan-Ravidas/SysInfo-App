@@ -1,0 +1,54 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dual_app_contactfiler"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/transparent_background">
+
+    <RelativeLayout
+        android:id="@+id/contact_filtering_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_list"
+        android:paddingTop="@dimen/contact_filter_paddingTop"
+        android:paddingBottom="@dimen/contact_filter_paddingTop">
+
+        <Switch
+            android:id="@+id/contact_filtering_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/app_switch_height"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/switch_divider_layout_margin"
+            android:layout_marginEnd="@dimen/list_switch_margin_right"
+            android:background="@drawable/ripple_switch" />
+
+        <TextView
+            android:id="@+id/contact_filtering_head"
+            style="@style/contact_filtering_head_text"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/margin_left"
+            android:layout_marginTop="@dimen/list_margin_top"
+            android:layout_toStartOf="@id/contact_filtering_switch"
+            android:background="@android:color/transparent"
+            android:text="@string/contact_filtering" />
+
+        <TextView
+            android:id="@+id/contact_filtering_sub"
+            style="@style/contact_selection_filter_sub_text"
+            android:layout_below="@id/contact_filtering_head"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/margin_left"
+            android:layout_marginEnd="@dimen/list_margin_left"
+            android:layout_marginBottom="@dimen/list_margin_top"
+            android:layout_toStartOf="@id/contact_filtering_switch"
+            android:background="@android:color/transparent"
+            android:text="@string/contact_filtering_sub" />
+
+        <View
+            style="@style/divider_vertical"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/list_switch_margin_left"
+            android:layout_toStartOf="@id/contact_filtering_switch" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/ripple_color_master_switch">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/select_contact_bg_color"/>
+            <gradient 
+                 android:startColor="@color/edit_button_shape_color"
+                 android:endColor="@color/edit_button_shape_color" 
+                 android:angle="270"/>
+
+            <corners 
+                 android:bottomRightRadius="@dimen/edit_button_round_radius" 
+                 android:bottomLeftRadius="@dimen/edit_button_round_radius" 
+                 android:topLeftRadius="@dimen/edit_button_round_radius" 
+                 android:topRightRadius="@dimen/edit_button_round_radius"/> 
+            </shape>
+    </item>
+</ripple>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_checked="true">
+        <layer-list>
+            <item>
+                <shape
+                    android:shape="rectangle">
+                    <size
+                        android:width="@dimen/recipient_list_item_thumbnail_width"
+                        android:height="@dimen/recipient_list_item_thumbnail_height"/>
+                    <solid
+                        android:color="@color/open_theme_photoId_checkbox_bg_color"/>
+                </shape>
+            </item>
+            <item>
+                <bitmap
+                    android:width="24dp"
+                    android:height="24dp"
+                    android:gravity="center"
+                    android:tint="#fafafa"/>
+            </item>
+        </layer-list>
+    </item>
+</selector>

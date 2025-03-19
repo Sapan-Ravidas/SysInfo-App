@@ -1,0 +1,17 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/black_ten_opaque">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="@color/background_light_theme"
+                android:endColor="@color/background_light_theme"
+                android:angle="270"/>
+
+            <corners
+                android:bottomRightRadius="@dimen/button_round_delete_contacts"
+                android:bottomLeftRadius="@dimen/button_round_delete_contacts"
+                android:topLeftRadius="@dimen/button_round_delete_contacts"
+                android:topRightRadius="@dimen/button_round_delete_contacts"/>
+        </shape>
+    </item>
+</ripple>

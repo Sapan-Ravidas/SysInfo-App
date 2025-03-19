@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="actionbar_title_text">#FF252525</color>
+    <color name="status_bar_color">#f1f1f3</color>
+    <color name="transparent_divider_color">#00000000</color>
+    <color name="button_round_shape_color">#0381FE</color>
+    <color name="black_ten_opaque">#0F000000</color>
+    <color name="edit_button_shape_color">#E4E4E7</color>
+    <color name="description_color">#252528</color>
+    <color name="list_sub_text_color">#8c8c8c</color>
+    <color name="contact_image_text_color">#8c8c8c</color>
+    <color name="list_item_text_color">#FF000000</color>
+    <color name="list_sub_text_sound_color">#FF499ebd</color>
+    <color name="contact_filter_sub_text">#979797</color>
+    <color name="list_text_color">#010102</color>
+    <color name="about_page_app_name_text_color">#010102</color>
+    <color name="about_page_app_description_text_color">#848487</color>
+    <color name="about_page_update_text_color">#fafafa</color>
+    <color name="edit_contact_button_text_color">#010102</color>
+    <color name="on_off_text_color">#FF454545</color>
+    <color name="next_text_color">#4297ff</color>
+    <color name="title_text_color">#010102</color>
+    <color name="divider_color">#FFe6e6e6</color>
+    <color name="divider_vertical_color">#C4C4C4</color>
+    <color name="divider_horizontal_color">#E4E4E7</color>
+    <color name="white">#fafafa</color>
+    <color name="on_off_text_on_color">#376FDE</color>
+    <color name="selected_contacts_for_delete">#f0f0f0</color>
+    <color name="no_contacts_selected_color">#FF737373</color>
+    <color name="show_button_shape_solid_color">#47ffffff</color>
+    <color name="show_button_shape_stroke_color">#4d000000</color>
+    <color name="subheader_color">#848487</color>
+    <color name="list_container_background">#fafafa</color>
+    <color name="list_container_color">#fcfcff</color>
+    <color name="sem_index_container_background">#1A373737</color>
+    <color name="contact_filter_list_container_color_on">#E9E9EC</color> <!-- opacity 5% : 0D -->
+    <color name="contact_filter_list_container_color_off">#fcfcff</color>
+    <color name="contact_filter_list_color_text_off">#FF252525</color>
+    <color name="preference_view_background_color">#fcfcff</color>
+    <color name="noti_bg_color">#E63B25</color>
+    <color name="contact_selection_filter_sub_text_color">#848487</color>
+
+    <!-- About pages -->
+    <color name="about_page_update_button_text_color">#f0f0f0</color>
+    <color name="about_page_app_info_button_text_color">#979797</color>
+    <color name="app_info_button_color">#010101</color>
+    <color name="multi_pane_window">#fcfcfc</color>
+    <!-- Dialer button bg color -->
+    <!-- openTheme : 26-6-1-1 -->
+    <color name="ripple_color_theme">#5E000000</color>
+    <color name="ripple_color_master_switch">#1A000000</color> <!-- 000000 with 10%opacity -->
+    <!--Background Dark Theme -->
+    <color name="background_light_theme">#f1f1f3</color>
+    <color name="background_color_light_theme">#FCFCFF</color>
+    <color name="about_page_color_light">#fcfcff</color>
+
+    <!-- Contacts -->
+    <color name="open_theme_list_divider_color">#e6e6e6</color>
+    <color name="contact_list_subtitle_divider_tint_color">#2E252525</color> <!-- opacity 18% : 2E -->
+    <color name="contact_list_subtitle_text">#78252525</color> <!-- opacity 47% : 78 -->
+    <color name="contact_list_item_pressed_fg_color">#4dc7c7c7</color>
+    <color name="contact_list_item_focused_fg_color">#a0a0a0</color>
+    <color name="contact_list_item_selected_fg_color">#08000000</color> <!-- opacity 3% :08 -->
+    <color name="contact_list_item_unselected_fg_color">@android:color/transparent</color>
+    <color name="open_theme_photoId_checkbox_bg_color">#D90381FE</color> <!-- opacity 85% : D9 -->
+    <color name="open_theme_thumbnail_stroke_color">#929292</color>
+    <color name="open_theme_thumbnail_alphabet_color">#929292</color>
+    <color name="open_theme_thumnail_bg_tint_color_01">@android:color/transparent</color>
+    <color name="open_theme_thumnail_bg_tint_color_02">@android:color/transparent</color>
+    <color name="open_theme_thumnail_bg_tint_color_03">@android:color/transparent</color>
+    <color name="open_theme_thumnail_bg_tint_color_04">@android:color/transparent</color>
+    <color name="open_theme_vips_senders_stroke_alphabet_color">#929292</color>
+    <color name="bottom_bar_text_color">#4297ff</color>
+    <color name="add_button_dim">#858585</color>
+    <color name="day_night_theme_common_color">#000000</color>
+    <color name="dark_theme">#000000</color>
+    <color name="navigation_bar_color">#F1F1F3</color>
+    <color name="about_page_navigation_bar_color">#fcfcff</color>
+    <color name="bottom_bar_color">#f2f2f2</color>
+    <color name="contact_filter_select_button">#000000</color>
+    <color name="select_contact_bg_color">#E9E9EC</color>
+    <color name="contact_item_ripple_color">#1A000000</color>
+</resources>

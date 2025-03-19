@@ -1,0 +1,655 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PreferenceSample" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.PreferenceSample" parent="Base.Theme.PreferenceSample" />
+    <style name="ActionBarTitleStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:fontFamily">sec</item>
+
+        <item name="android:textFontWeight">400</item>
+
+        <item name="android:textSize">@dimen/title_text</item>
+
+        <item name="android:textColor">@color/title_text_color</item>
+
+        <item name="android:popupTheme">@style/PopupStyle</item>
+
+    </style>
+
+    <style name="CollapsingToolbar">
+
+        <item name="android:background">@color/background_light_theme</item>
+
+        <item name="android:statusBarColor">@color/status_bar_color</item>
+
+    </style>
+
+
+    <style name="PopupStyle" parent="Theme.AppCompat.Light">
+
+        <item name="android:colorBackgroundCacheHint">@null</item>
+
+    </style>
+
+
+    <style name="CustomPopupStyle" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+
+        <item name="android:colorBackgroundCacheHint">@null</item>
+
+        <item name="android:textColor">@color/list_text_color</item>
+
+    </style>
+
+
+    <style name="translucent" parent="@android:style/Theme.DeviceDefault.Light.Dialog.Alert">
+
+        <item name="android:statusBarColor">@color/status_bar_color</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="android:windowIsTranslucent">true</item>
+
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+        <item name="android:windowContentOverlay">@null</item>
+
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+
+        <item name="android:navigationBarColor">@color/navigation_bar_color</item>
+
+        <item name="android:windowLightNavigationBar">true</item>
+
+    </style>
+
+
+    <style name="contact_description">
+
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:layout_gravity">left</item>
+
+        <item name="android:lineSpacingExtra">@dimen/description_line_spacing</item>
+
+        <item name="android:layout_marginStart">@dimen/margin_left</item>
+
+        <item name="android:layout_marginEnd">@dimen/description_margin_left</item>
+
+        <item name="android:layout_marginTop">@dimen/description_margin_top</item>
+
+        <item name="android:textColor">@color/description_color</item>
+
+        <item name="android:textSize">@dimen/description_text</item>
+
+        <item name="android:fontFamily">sec</item>
+
+        <item name="android:textFontWeight">400</item>
+
+    </style>
+
+
+    <style name="description">
+
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:layout_gravity">left</item>
+
+        <item name="android:lineSpacingExtra">@dimen/description_line_spacing</item>
+
+        <item name="android:layout_marginStart">@dimen/description_margin_left</item>
+
+        <item name="android:layout_marginEnd">@dimen/description_margin_left</item>
+
+        <item name="android:layout_marginTop">@dimen/description_margin_top</item>
+
+        <item name="android:layout_marginBottom">@dimen/description_margin_top</item>
+
+        <item name="android:textColor">@color/description_color</item>
+
+        <item name="android:textSize">@dimen/description_text</item>
+
+        <item name="android:fontFamily">sec</item>
+
+        <item name="android:textFontWeight">400</item>
+
+    </style>
+
+
+    <style name="dual_app_description">
+
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:layout_gravity">left</item>
+
+        <item name="android:lineSpacingExtra">@dimen/description_line_spacing</item>
+
+        <item name="android:layout_marginStart">@dimen/margin_left</item>
+
+        <item name="android:layout_marginEnd">@dimen/description_margin_left</item>
+
+        <item name="android:layout_marginTop">@dimen/dual_app_description_margin_top</item>
+
+        <item name="android:layout_marginBottom">@dimen/description_margin_top</item>
+
+        <item name="android:textColor">@color/description_color</item>
+
+        <item name="android:textSize">@dimen/description_text</item>
+
+        <item name="android:fontFamily">sec</item>
+
+        <item name="android:textFontWeight">400</item>
+
+    </style>
+
+
+    <style name="subheader">
+
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:layout_gravity">left</item>
+
+        <item name="android:accessibilityHeading">true</item>
+
+        <item name="android:textColor">@color/subheader_color</item>
+
+        <item name="android:textSize">@dimen/subheader_text</item>
+
+        <item name="android:paddingTop">@dimen/subheader_padding_top</item>
+
+        <item name="android:paddingBottom">@dimen/subheader_padding_bottom</item>
+
+        <item name="android:layout_marginStart">@dimen/margin_left</item>
+
+        <item name="android:layout_marginEnd">@dimen/margin_right</item>
+
+        <item name="android:fontFamily">sec</item>
+
+        <item name="android:textFontWeight">600</item>
+
+    </style>
+
+
+    <style name="list_text">
+
+        <item name="android:layout_width">wrap_content</item>
+
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:textColor">@color/list_text_color</item>
+
+        <item name="android:textSize">@dimen/list_text</item>
+
+        <item name="android:fontFamily">sec</item>
+
+        <item name="android:textFontWeight">400</item>
+
+    </style>
+
+
+    <style name="list_sub_text">
+
+        <item name="android:layout_width">wrap_content</item>
+
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:textColor">@color/list_sub_text_color</item>
+
+        <item name="android:textSize">@dimen/list_sub_text</item>
+
+        <item name="android:fontFamily">sec</item>
+
+        <item name="android:textFontWeight">400</item>
+
+    </style>
+
+
+    <style name="on_off_text_on">
+
+        <item name="android:layout_width">wrap_content</item>
+
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:textColor">@color/on_off_text_on_color</item>
+
+        <item name="android:textSize">@dimen/on_off_text</item>
+
+        <item name="android:fontFamily">sec</item>
+
+        <item name="android:textFontWeight">600</item>
+
+        <item name="android:layout_centerVertical">true</item>
+
+    </style>
+
+
+    <style name="on_off_text_off">
+
+        <item name="android:layout_width">wrap_content</item>
+
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:textColor">@color/contact_filter_list_color_text_off</item>
+
+        <item name="android:textSize">@dimen/on_off_text</item>
+
+        <item name="android:fontFamily">sec</item>
+
+        <item name="android:textFontWeight">600</item>
+
+        <item name="android:layout_centerVertical">true</item>
+
+    </style>
+
+
+    <style name="all_text">
+
+        <item name="android:layout_width">wrap_content</item>
+
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:textColor">@color/title_text_color</item>
+
+        <item name="android:textSize">
+            @dimen/w_multiple_selection_contextual_actionbar_checkbox_text_size
+        </item>
+
+        <item name="android:fontFamily">sec</item>
+
+        <item name="android:textFontWeight">300</item>
+
+    </style>
+
+
+    <style name="no_contacts_selected_text">
+
+        <item name="android:layout_width">wrap_content</item>
+
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:fontFamily">sec</item>
+
+        <item name="android:textFontWeight">300</item>
+
+        <item name="android:textSize">@dimen/no_contacts_selected_text</item>
+
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+
+    </style>
+
+
+    <style name="selected_contacts_title_text">
+
+        <item name="android:layout_width">wrap_content</item>
+
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:textColor">@color/title_text_color</item>
+
+        <item name="android:textSize">@dimen/title_text</item>
+
+        <item name="android:fontFamily">sec</item>
+
+        <item name="android:textFontWeight">600</item>
+
+        <item name="android:textAllCaps">false</item>
+
+    </style>
+
+
+    <style name="contact_filtering_sub_text">
+
+        <item name="android:layout_width">wrap_content</item>
+
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:textColor">@color/contact_filter_sub_text</item>
+
+        <item name="android:textSize">@dimen/contact_filter_sub_textsize</item>
+
+        <item name="android:fontFamily">sec</item>
+
+        <item name="android:textFontWeight">400</item>
+
+    </style>
+
+
+    <style name="contact_filtering_head_text">
+
+        <item name="android:layout_width">wrap_content</item>
+
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:textColor">@color/list_text_color</item>
+
+        <item name="android:textSize">@dimen/list_text</item>
+
+        <item name="android:fontFamily">sec</item>
+
+        <item name="android:textFontWeight">400</item>
+
+
+    </style>
+
+
+    <style name="divider">
+
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="android:layout_height">@dimen/divider_height</item>
+
+        <item name="android:background">?android:attr/listDivider</item>
+
+    </style>
+
+
+    <style name="divider_vertical">
+
+        <item name="android:layout_width">@dimen/divider_height</item>
+
+        <item name="android:layout_height">@dimen/divider_vertical_height</item>
+
+        <item name="android:background">@color/divider_vertical_color</item>
+
+    </style>
+
+
+    <style name="list_divider">
+
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="android:layout_height">@dimen/divider_height</item>
+
+        <item name="android:background">@color/divider_horizontal_color</item>
+
+        <item name="android:layout_marginStart">@dimen/list_divider_margin</item>
+
+        <item name="android:layout_marginEnd">@dimen/divider_vertical_end_margin</item>
+
+        <item name="android:visibility">gone</item>
+
+    </style>
+
+    <style name="contact_list_divider">
+
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="android:layout_height">@dimen/divider_height</item>
+
+        <item name="android:background">@color/divider_vertical_color</item>
+
+        <item name="android:layout_marginStart">@dimen/contact_list_divider_margin</item>
+
+        <item name="android:layout_marginEnd">@dimen/contact_divider_vertical_end_margin</item>
+
+        <item name="android:visibility">gone</item>
+
+    </style>
+
+
+    <style name="switch_divider">
+
+        <item name="android:layout_width">@dimen/divider_height</item>
+
+        <item name="android:layout_height">match_parent</item>
+
+        <item name="android:background">?android:attr/listDivider</item>
+
+    </style>
+
+
+    <style name="contact_on_off_divider">
+
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="android:layout_height">@dimen/divider_height</item>
+
+        <item name="android:background">@color/divider_color</item>
+
+    </style>
+
+
+    <style name="buttonBar">
+
+        <item name="android:layout_width">wrap_content</item>
+
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:layout_weight">1</item>
+
+        <item name="android:ellipsize">marquee</item>
+
+        <item name="android:singleLine">true</item>
+
+        <item name="android:fontFamily">sec</item>
+
+        <item name="android:textFontWeight">600</item>
+
+        <item name="android:textSize">@dimen/next_btn_text</item>
+
+        <item name="android:textColor">@color/bottom_bar_text_color</item>
+
+    </style>
+
+
+    <style name="AppName">
+
+        <item name="android:layout_width">wrap_content</item>
+
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:textAllCaps">false</item>
+
+        <item name="android:fontFamily">sec</item>
+
+        <item name="android:textFontWeight">700</item>
+
+        <item name="android:textSize">@dimen/about_page_app_label_text_size</item>
+
+        <item name="android:textColor">@color/about_page_app_name_text_color</item>
+
+    </style>
+
+
+    <style name="AppInfo">
+
+        <item name="android:layout_width">wrap_content</item>
+
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:layout_weight">1</item>
+
+        <item name="android:textAllCaps">false</item>
+
+        <item name="android:fontFamily">sec</item>
+
+        <item name="android:textFontWeight">600</item>
+
+        <item name="android:textSize">@dimen/about_page_app_info_text_size</item>
+
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+
+    </style>
+
+
+    <style name="AppVersion">
+
+        <item name="android:layout_width">wrap_content</item>
+
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:fontFamily">sec</item>
+
+        <item name="android:textFontWeight">400</item>
+
+        <item name="android:textSize">@dimen/about_page_app_version_text_size</item>
+
+        <item name="android:textColor">@color/about_page_app_description_text_color</item>
+
+    </style>
+
+
+    <style name="AboutAppAvailable">
+
+        <item name="android:layout_width">wrap_content</item>
+
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:fontFamily">sec</item>
+
+        <item name="android:textFontWeight">400</item>
+
+        <item name="android:textSize">@dimen/about_page_app_available_text_size</item>
+
+        <item name="android:textColor">@color/about_page_app_description_text_color</item>
+
+    </style>
+
+
+    <style name="Update">
+
+        <item name="android:layout_width">wrap_content</item>
+
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:layout_weight">1</item>
+
+        <item name="android:textAllCaps">false</item>
+
+        <item name="android:fontFamily">sec</item>
+
+        <item name="android:textFontWeight">600</item>
+
+        <item name="android:textSize">@dimen/about_page_app_update_button_text_size</item>
+
+        <item name="android:textColor">@color/about_page_update_text_color</item>
+
+    </style>
+
+    <style name="EditContacts">
+
+        <item name="android:layout_width">@dimen/select_contacts_button_width</item>
+
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:textAllCaps">false</item>
+
+        <item name="android:fontFamily">sec</item>
+
+        <item name="android:textFontWeight">600</item>
+
+        <item name="android:textSize">@dimen/edit_contact_button_text_size</item>
+
+        <item name="android:textColor">@color/edit_contact_button_text_color</item>
+
+    </style>
+
+    <style name="AlertDialogActivity"
+
+        parent="@android:style/Theme.DeviceDefault.Light.Panel">
+
+        <item name="android:backgroundDimEnabled">true</item>
+
+    </style>
+
+    <style name="background_opaque">
+
+        <item name="android:background">@color/background_light_theme</item>
+
+    </style>
+
+    <style name="Theme.ExtendedAppBarSupport" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+
+
+        <item name="android:statusBarColor">@color/status_bar_color</item>
+
+        <item name="android:displayOptions">showHome|homeAsUp</item>
+
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+
+        <item name="android:navigationBarColor">@color/navigation_bar_color</item>
+
+        <item name="android:windowLightNavigationBar">true</item>
+
+        <item name="android:windowSplashscreenContent">@color/background_light_theme</item>
+
+    </style>
+
+
+    <style name="ExpandedAppBar" parent="@android:style/TextAppearance.Medium">
+
+        <item name="android:fontFamily">sec</item>
+
+        <item name="android:textFontWeight">600</item>
+
+        <item name="android:textColor">@color/title_text_color</item>
+
+        <item name="android:textSize">@dimen/about_page_app_label_text_size</item>
+
+    </style>
+
+
+    <style name="custom" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+
+        <item name="android:textSize">@dimen/sesl_action_bar_text_size_title_extend</item>
+
+        <item name="android:fontFamily">sec</item>
+
+        <item name="android:textFontWeight">700</item>
+
+        <item name="android:textColor">@color/title_text_color</item>
+
+    </style>
+
+    <style name="Theme.AboutPageStyle" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+
+        <item name="android:windowBackground">@color/about_page_color_light</item>
+
+        <item name="android:statusBarColor">@color/about_page_color_light</item>
+
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+
+        <item name="android:navigationBarColor">@color/about_page_navigation_bar_color</item>
+
+        <item name="android:windowLightNavigationBar">true</item>
+
+    </style>
+
+    <style name="contact_selection_filter_sub_text">
+
+        <item name="android:layout_width">wrap_content</item>
+
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:textColor">@color/contact_selection_filter_sub_text_color</item>
+
+        <item name="android:textSize">@dimen/list_sub_text</item>
+
+        <item name="android:fontFamily">sec</item>
+
+        <item name="android:textFontWeight">400</item>
+
+    </style>
+
+    <style name="contacts_list_actionbar_style" parent="@android:style/Widget.DeviceDefault.ActionButton">
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:fontFamily">sec</item>
+        <item name="android:textFontWeight">700</item>
+        <item name="android:background">@drawable/ripple_contact_list_actionbar</item>
+    </style>
+</resources>
